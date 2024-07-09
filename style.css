@@ -1,0 +1,196 @@
+h1 {
+    color: purple;
+}
+
+a[title*="me"] {
+    color: blue;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+h1 {
+    font-family: 'theblacklist', arial, sans-serif;
+    text-align : center;
+    margin-top : 0;
+    padding-top: 30px;
+
+
+}
+
+h1:active {
+    color: red;
+}
+
+h2 {
+    font-family: Playwrite MX, sans-serif;
+    font-size  : 1.5em;
+    width      : 400px;
+    color      : white;
+    margin     : auto;
+
+
+    word-wrap: break-word;
+
+}
+
+h3:before {
+    content: " « ";
+    color  : grey;
+
+
+}
+
+h3 {
+    font-size     : 1.5em;
+    text-transform: uppercase;
+}
+
+h3:after {
+    content: " » ";
+    color  : grey;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+
+header {
+    text-align    : center;
+    background    : #1D1D1D;
+    color         : white;
+    padding-bottom: 30px;
+
+}
+
+section {
+    text-align: center;
+}
+
+a:focus {
+    color: red;
+}
+
+/*body{
+  font-family: Playwrite MX;
+   background-color: #F4F7F6;
+   background-image:url(https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80) ;
+
+      background-attachment:scroll;
+      background-repeat:no-repeat;
+      background-position:center center ;
+      border: 1px pink double; }
+*/
+a {
+    text-decoration: none;
+
+
+}
+
+
+li {
+    list-style: none;
+    display   : inline;
+    margin    : 10px;
+
+}
+
+li:hover {
+    font-weight: bold;
+
+}
+
+/*a[title="contact"] {
+
+display:block;
+}
+*/
+nav {
+    text-align: center;
+    background: white;
+    box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+    font-size : 1.1em;
+    padding   : 15px;
+}
+
+
+footer {
+    background: #1D1D1D;
+    color     : white;
+    padding   : 15px;
+    text-align: center;
+
+}
+
+#contact {
+    border       : 1px black solid;
+    border-radius: 15px;
+    padding      : 30px;
+    margin-bottom: 50px;
+}
+
+
+#logo {
+    width : 0px;
+    height: 0px;
+}
+
+.separator {
+    width     : 40px;
+    height    : 1px;
+    margin    : 15px auto;
+    display   : block;
+    background: #999999;
+
+}
+
+
+
+
+ul {
+    display: inline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* #projets {
+    display       : flex;
+    flex-wrap     : wrap;
+    flex-direction: row;
+
+} */
+
+.contener {
+    width        : 50%;
+    margin       : auto;
+    justify-items: center;
+}
+
+.projet {
+    width : 600px;
+    margin: 10px;
+
+
+}
+
+.projet img {
+    width : 400px;
+    height: 266px;
+}
+
+.date-project {
+    font-size: 0.8em;
+
+}
+
+span {
+    text-transform: uppercase;
+    display       : block;
+}
